@@ -106,6 +106,10 @@
             <goals>
               <goal>build</goal>
             </goals>
+            <configuration>
+              <enableHttpUrlHandler>true</enableHttpUrlHandler>
+              <additionalBuildArgs>--report-unsupported-elements-at-runtime</additionalBuildArgs>
+            </configuration>
           </execution>
         </executions>
       </plugin>
@@ -121,7 +125,7 @@
             <java.util.logging.manager>org.jboss.logmanager.LogManager</java.util.logging.manager>
           </systemProperties>
         </configuration>
-      </plugin>
+      </plugin>/Users/hluong/RedHat/bobbycar_vietstack/bobbycar/components/car-simulator 
     </plugins>
   </build>
   <profiles>
