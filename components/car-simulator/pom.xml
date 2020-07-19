@@ -104,7 +104,7 @@
         <executions>
           <execution>
             <goals>
-              <goal>build</goal>
+              <goal>native-image</goal>
             </goals>
             <configuration>
               <enableHttpUrlHandler>true</enableHttpUrlHandler>
@@ -125,7 +125,7 @@
             <java.util.logging.manager>org.jboss.logmanager.LogManager</java.util.logging.manager>
           </systemProperties>
         </configuration>
-      </plugin>/Users/hluong/RedHat/bobbycar_vietstack/bobbycar/components/car-simulator 
+      </plugin> 
     </plugins>
   </build>
   <profiles>
