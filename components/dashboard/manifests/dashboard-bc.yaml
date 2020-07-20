@@ -22,6 +22,7 @@ spec:
   source:
     git:
       uri: https://github.com/vietstacker/bobbycar.git
+      ref: master
     type: Git
     contextDir: "components/dashboard"
   strategy:
