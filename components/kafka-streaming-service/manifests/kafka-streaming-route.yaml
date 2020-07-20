@@ -5,7 +5,7 @@ metadata:
   labels:
     camel.apache.org/integration: kafka-streaming-service
 spec:
-  host: kafka-streaming-service-bobbycar.apps.ocp3.stormshift.coe.muc.redhat.com
+  host: kafka-streaming-service-bobbycar.apps.cluster-sing-3f05.sing-3f05.example.opentlc.com
   to:
     kind: Service
     name: kafka-streaming-service

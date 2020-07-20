@@ -3,7 +3,7 @@ apiVersion: route.openshift.io/v1
 metadata:
   name: kafka-bridge
 spec:
-  host: kafka-bridge-bobbycar.apps.ocp3.stormshift.coe.muc.redhat.com
+  host: kafka-bridge-bobbycar.apps.cluster-sing-3f05.sing-3f05.example.opentlc.com
   to:
     kind: Service
     name: bobbycar-bridge-service
