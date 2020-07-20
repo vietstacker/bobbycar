@@ -6,6 +6,11 @@ metadata:
   name: dashboard
 spec:
   failedBuildsHistoryLimit: 5
+  resources:
+    limits:
+      memory: "16Gi"
+    requests:
+      memory: "4096Mi"
   nodeSelector: {}
   output:
     to:
@@ -16,7 +21,7 @@ spec:
   runPolicy: Serial
   source:
     git:
-      uri: https://github.com/sa-mw-dach/bobbycar.git
+      uri: https://github.com/vietstacker/bobbycar.git
     type: Git
     contextDir: "components/dashboard"
   strategy:
