@@ -1,5 +1,5 @@
 {
-    "GOOGLE_API_KEY": "AIzaSyCug3EibJaZOlEcVqxxYS7rJrc2cRhl4NI",
+    "GOOGLE_API_KEY": "AIzaSyDy6otv-GJYWDp6139dMp3k5KiVod30IE8",
     "BOBBYCAR_API_KEY": "",
     "SSE_ENDPOINT": "http://localhost:8080",
     "WS_ENDPOINT": "wss://kafka-streaming-service-bobbycar.apps.cluster-sing-3f05.sing-3f05.example.opentlc.com/api/carevents",
