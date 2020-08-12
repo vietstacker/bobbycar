@@ -2,6 +2,6 @@
     "GOOGLE_API_KEY": "AIzaSyBl60vQCGpRT2z5fN2nBzMV9FQy2ozrwyI",
     "BOBBYCAR_API_KEY": "",
     "SSE_ENDPOINT": "http://localhost:8080",
-    "WS_ENDPOINT": "wss://kafka-streaming-service-bobbycar.apps.cluster-sing-3f05.sing-3f05.example.opentlc.com/api/carevents",
-    "CACHE_ENDPOINT": "https://kafka-bridge-3scale-apicast-staging.apps.ocp3.stormshift.coe.muc.redhat.com/cache"
+    "WS_ENDPOINT": "wss://kafka-streaming-service-bobbycar.apps.cluster-sing-2ac7.sing-2ac7.example.opentlc.com/api/carevents",
+    "CACHE_ENDPOINT": "https://http://datagrid-to-rest-route-bobbycar.apps.cluster-sing-2ac7.sing-2ac7.example.opentlc.com/cache"
 }

@@ -11,7 +11,6 @@ import { ConfigService } from './providers/config.service';
   styleUrls: ['app.component.scss']
 })
 export class AppComponent {
-  
   public selectedIndex = 0;
   public appPages = [
     {
